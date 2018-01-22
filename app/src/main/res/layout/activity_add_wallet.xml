@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_green_dark"
+        android:padding="16dp"
+        android:onClick="saveWallet"
+        android:textSize="@dimen/buttonTextSize"
+        android:text="@string/save"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/walletNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wallet_name"
+            android:textStyle="bold"
+            android:textSize="@dimen/editTextSize"/>
+
+        <EditText
+            android:id="@+id/editWalletName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:hint="@string/name_your_wallet_here"
+            android:maxLength="21"
+            android:inputType="textShortMessage"
+            android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_below="@id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/currentBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_balance"
+            android:textStyle="bold"
+            android:textSize="@dimen/editTextSize"/>
+
+        <EditText
+            android:id="@+id/editCurrentBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="@string/edit_current_balance"
+            android:inputType="numberDecimal"
+            android:maxLength="7"
+            android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="25dp"
+        android:layout_below="@id/secondRow"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/noteLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:textStyle="bold"
+            android:textSize="@dimen/editTextSize"/>
+
+        <EditText
+            android:id="@+id/editNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:hint="@string/wallet_description"
+            android:maxLength="50"
+            android:maxLines="3"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Money Manager</string>
+    <string name="tab_text_1">BALANCE</string>
+    <string name="tab_text_2">HISTORY</string>
+    <string name="tab_text_3">CHART</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="wallet">Wallet</string>
+    <string name="balanceLabel">Balance</string>
+    <string name="balanceResult">Please, add a wallet!</string>
+    <string name="income">RECEIVED</string>
+    <string name="expenses">SPENT</string>
+    <string name="addWallet">addWallet</string>
+    <string name="period">Period</string>
+    <string name="save">Save</string>
+    <string name="wallet_name">Name</string>
+    <string name="name_your_wallet_here">Name your wallet…</string>
+    <string name="current_balance">Balance</string>
+    <string name="edit_current_balance">Current balance in numbers…</string>
+    <string name="note">Notes</string>
+    <string name="wallet_description">Description…</string>
+    <string name="income_source">Income Source</string>
+    <string name="source">Source</string>
+    <string name="write_income_source_here">Write income source…</string>
+    <string name="amount">Amount</string>
+    <string name="income_amount_in_numbers">Income Amount in numbers…</string>
+    <string name="delete_all_data">Delete all data</string>
+    <string name="delete_all_wallets">Delete all wallets</string>
+    <string name="delete_all_incomes">Delete all incomes</string>
+    <string name="wallet_note">Wallet description</string>
+    <string name="expense_amount_in_numbers">Expense amount in numbers…</string>
+    <string name="delete_all_expenses">Delete all expenses</string>
+    <string name="delete_all_history">Delete all history</string>
+    <string name="choose">Choose</string>
+
+    <string-array name="period">
+        <item>"Day"</item>
+        <item>"Month"</item>
+        <item>"Year"</item>
+    </string-array>
+
+    <string-array name="chartType">
+        <item>"Expense"</item>
+        <item>"Income"</item>
+    </string-array>
+
+    <string-array name="incomeSource">
+        <item>"Salary"</item>
+        <item>"Gift"</item>
+        <item>"Transaction"</item>
+        <item>"Dividend"</item>
+        <item>"Other"</item>
+    </string-array>
+
+    <string-array name="expenseSource">
+        <item>"Food"</item>
+        <item>"Transport"</item>
+        <item>"Transaction"</item>
+        <item>"Education"</item>
+        <item>"Clothes"</item>
+        <item>"Gift"</item>
+        <item>"Bar"</item>
+        <item>"Medicine"</item>
+        <item>"Other"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="androidBackground">#FAFAFA</color>
+    <color name="blocked">#696969</color>
+
+    <color name="pastelColor2">#ff6961</color>
+    <color name="pastelColor9">#f5880d</color>
+    <color name="pastelColor8">#fbcc38</color>
+    <color name="pastelColor5">#77dd77</color>
+    <color name="pastelColor6">#009a00</color>
+    <color name="pastelColor3">#d562be</color>
+    <color name="pastelColor4">#61a8ff</color>
+    <color name="pastelColor1">#ada1e6</color>
+    <color name="pastelColor7">#6d8008</color>
+
+
+
+</resources>
